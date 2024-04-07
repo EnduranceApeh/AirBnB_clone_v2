@@ -9,8 +9,7 @@ mkdir -p /data/web_static/releases/test/
 echo "Helberton school" > /data/web_static/releases/test/index.html
 ln -sf /data/web_static/releases/test/ /data/web_static/current
 
-chown -R ubuntu /data/
-chgrp -R /data/
+chown -hR ubuntu:ubuntu /data/
 
 printf %s "server {
     listen 80 default_server;
