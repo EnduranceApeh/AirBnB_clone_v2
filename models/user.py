@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """This module defines a class User"""
-from sqlachemy.ext.declarative imoprt declarative_base
+from sqlalchemy.ext.declarative imoprt declarative_base
 from models.base_model import BaseModel, Base
-from sqlachemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String
 
 
 
